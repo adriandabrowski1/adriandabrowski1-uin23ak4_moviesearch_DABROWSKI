@@ -7,7 +7,7 @@ function MovieList({ movies, isLoading }) {
   }
 
   return (
-    <ul>
+    <ul className='list'>
       {movies.map(movie => (
         <li key={movie.imdbID}>
           <Movie movie={movie} />

@@ -28,6 +28,13 @@
   color: #61dafb;
 }
 
+.list{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  list-style: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
